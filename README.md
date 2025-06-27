@@ -2,16 +2,8 @@
 > Originally developed for undergraduate thesis, this project achieved an A as the final grade.
 
 ## Project summary
-This project entailed topic-level sentiment analysis of user feedback on the Mobile JKN application, 
-the official digital health service platform developed by BPJS Kesehatan in Indonesia. 
-The objective was to not only categorize user sentiments (positive or negative) but also to uncover the primary topics of discussion within the reviews. 
-The dataset, comprising 100,000 reviews scraped from Google Play Store (from September 2018 to March 2025), was cleaned and preprocessed through two stages, 
-each tailored for sentiment classification and topic identification, respectively. 
-Specifically, I employed a BERT-based neural network (BERT-NN) to categorize user sentiments, attaining an **accuracy of 98%**. 
-For topic detection, I utilized BERT embeddings combined with Deep Embedded Clustering (DEC) to identify topic clusters. 
-The top keywords for each cluster were extracted using class-based TF-IDF (c-TF-IDF), 
-and the interpretation of these keywords into meaningful topics was supported by Generative Pretrained Transformers (GPT). 
-As a result, the analysis identified **4 dominant user topics** from the user reviews with a topic coherence score of **0.23428**. 
+This project explored what users are saying and how they feel about the Mobile JKN app, the official digital health service developed by BPJS Kesehatan in Indonesia. The goal was not only to classify user sentiment (positive or negative), but also to understand the main topics mentioned in the reviews. A total of 100,000 user reviews, collected from the Google Play Store between September 2018 and March 2025, was used in the analysis. The data was cleaned and preprocessed in two stages for sentiment classification and topic modeling.
+For sentiment classification, a BERT-based neural network was used, achieving an **accuracy of 98%**. For topic modeling, BERT embeddings were combined with Deep Embedded Clustering (DEC) to identify topic clusters. The top keywords for each cluster were extracted using class-based TF-IDF (c-TF-IDF), and the interpretation of these keywords into meaningful topics was supported by Generative Pretrained Transformers (GPT). As a result, the analysis identified **4 main topics** with a topic coherence score of 0.23428. 
 
 ## Outcome summary
 ![image](https://github.com/user-attachments/assets/6427be81-2bb5-43d1-900d-ba3b32135a5a)
