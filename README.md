@@ -1,4 +1,5 @@
 #  💬 Topic-Level Sentiment Analysis on Mobile JKN App Reviews
+> Originally developed for undergraduate thesis, this project achieved an A as the final grade.
 
 ## Project summary
 This project entailed topic-level sentiment analysis of user feedback on the Mobile JKN application, 
